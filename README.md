@@ -21,4 +21,5 @@ download the repository, extract it and open index.html
 
 
 ## screenshots
-![screenshot1](./Capture1.png)
+![screenshot1](./Capture1.PNG)
+![screenshot2](./Capture2.PNG)
