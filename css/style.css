@@ -1,0 +1,113 @@
+body{
+    font-family: 'Noto Serif', serif;
+    color: black;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../img/banner.jpg") center/cover no-repeat fixed;
+}
+/* NAVIGATION BAR */
+.mynavbar{
+    background-color:transparent;
+}
+/* nav links */
+.navbar-toggler{
+/* For removing the outliine from the button  */
+outline: none !important;
+}
+.navbar-toggler-icon{
+    color:blue;
+    font-size: 40px;
+
+}
+.nav-link{
+    color: #e11d74;
+    font-size: 20px;
+    transition: all 1s ease-in-out;
+}
+.nav-link:hover{
+    color:black
+}
+.cart_info_icon{
+    cursor:pointer;
+}
+#cart-info{
+    border: 2px solid white;
+    padding: 5px 9px;
+    border-radius: 25px;
+    cursor:pointer;
+    color:white;
+}
+#cart-info:hover{
+    background:#e11d74;
+    color:white;
+    border-color:white
+}
+.nav-info{
+    color:white;
+}
+/* Benner/Title section */
+.max-height-container{
+    /* set the background image */
+    
+    height:100vh;
+    position:relative;
+}
+.banner{
+    color:white;
+    font-size: 80px;
+}
+.banner-title{
+   color: #e11d74;
+   border: 3px solid white;
+   border-radius:25px;
+   padding:10px;
+   background-color:white;
+}
+
+.banner-link{
+    font-size:20px;
+    color:black;
+    border: 3px solid black;
+}
+.banner-link:hover{
+    background-color: black;
+    color:white;
+}
+/* STYLE FOR CART BUTTON */
+.cart {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: all 0.3s ease-in-out;
+    background: rgba(255, 255, 255, 0.5);
+    width: 400px;
+    width: 0;
+    overflow: hidden;
+  }
+   .show-cart {
+    width: 400px;
+    padding: 2% 1.5%;
+    margin-top: 100px;
+    right: 0;
+    border-radius: 15px;
+    transform: rotateY(-360deg);
+  }
+
+
+/* STYLE FOR ABOUT SECTION */
+.about{
+    background-color: white;
+}
+
+/* STYLE FOR STORE */
+.store{
+    background-color: lightgray;
+}
+.img-container{
+    position: relative;
+    overflow:hidden;
+}
+
+/* Footer style */
+.footer{
+    background-color: #e11d74;
+    color:white;
+}
